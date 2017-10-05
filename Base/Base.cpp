@@ -42,6 +42,8 @@ Base::Base()
 
 Base::~Base()
 {
+	for (int i = 0; i < employees.size(); i++)
+		delete employees[i];
 }
 void Base::printInfoAboutAll() const
 {

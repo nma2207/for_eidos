@@ -4,7 +4,8 @@ int main()
 {
 	Base b;
 	char c;
-	while (c = getchar())
+	//добавил свою команду для выхода из цикла
+	while ((c = getchar()) != ';')
 	{
 		
 		if ('0' <= c && c <= '9')
@@ -25,6 +26,7 @@ int main()
 		{
 			b.sortByReductionSalary();
 		}
+
 		
 	}
 
