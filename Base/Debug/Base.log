@@ -1,5 +1,8 @@
-﻿  Base.cpp
-d:\qt_prog\for_eidos_2\classes\employee.h(15): warning C4251: Employee::name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+﻿  stdafx.cpp
+  Base.cpp
+d:\qt_prog\for_eidos_2\classes\employee.h(15): warning C4251: Employee::firstName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\employee.h(16): warning C4251: Employee::lastName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
   d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
 d:\qt_prog\for_eidos_2\base\base.h(12): warning C4251: Base::employees: class "std::vector<Employee *,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "Base"
           with
@@ -52,6 +55,7 @@ d:\qt_prog\for_eidos_2\classes\electronicsengineer.h(9): warning C4251: Electron
               _Ty=std::string
           ]
 d:\qt_prog\for_eidos_2\base\base.cpp(46): warning C4018: <: несоответствие типов со знаком и без знака
-     
+  dllmain.cpp
+     Создается библиотека D:\qt_prog\for_eidos_2\Debug\Base.lib и объект D:\qt_prog\for_eidos_2\Debug\Base.exp
   Base.vcxproj -> D:\qt_prog\for_eidos_2\Debug\Base.dll
   Base.vcxproj -> D:\qt_prog\for_eidos_2\Debug\Base.pdb (Full PDB)

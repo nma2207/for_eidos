@@ -3,8 +3,8 @@
 
 
 
-Developer::Developer(std::string name, double salary, std::string devLanguage, std::string uni):
-	Employee(name, developer, salary),
+Developer::Developer(std::string firstName, std::string lastName, double salary, std::string devLanguage, std::string uni):
+	Employee(firstName,lastName, developer, salary),
 	devLanguage(devLanguage),
 	uni(uni)
 {
@@ -22,7 +22,7 @@ std::string Developer::getInfo() const
 
 	return info;
 }
-std::string Developer::getName() const
+std::string Developer::getPosition() const
 {
 	return "Developer";
 }

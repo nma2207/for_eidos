@@ -12,13 +12,15 @@ enum CLASSES_API Position {
 
 class CLASSES_API Employee
 {
-	std::string name;
+	std::string firstName;
+	std::string lastName;
 	Position position;
 	double salary;
-	virtual std::string getName() const = 0;
-
 public:
-	Employee(std::string name, Position position, double salary);
+	virtual std::string getPosition() const = 0;
+	std::string getName() const;
+
+	Employee(std::string firstName, std::string lastName, Position position, double salary);
 	virtual std::string getInfo() const;
 	double getSalary() const;
 	virtual ~Employee();

@@ -3,9 +3,10 @@
 class CLASSES_API Economist:public Employee
 {
 	int firmCount;
-	std::string getName() const override;
 public:
-	Economist(std::string name, double salary, int firmCount);
+	std::string getPosition() const override;
+
+	Economist(std::string firstName, std::string lastName, double salary, int firmCount);
 	~Economist();
 	std::string getInfo() const override;
 };

@@ -3,8 +3,8 @@
 
 
 
-Economist::Economist(std::string name, double salary, int firmCount):
-	Employee(name, economist, salary),
+Economist::Economist(std::string firstName, std::string lastName, double salary, int firmCount):
+	Employee(firstName, lastName, economist, salary),
 	firmCount(firmCount)
 {
 }
@@ -20,7 +20,7 @@ std::string Economist::getInfo() const
 	info += ("Firm count: " + std::to_string(firmCount)+"\n");
 	return info;
 }
-std::string Economist::getName() const
+std::string Economist::getPosition() const
 {
 	return "Economist";
 }

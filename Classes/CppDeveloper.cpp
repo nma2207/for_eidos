@@ -3,8 +3,8 @@
 
 
 
-CppDeveloper::CppDeveloper(std::string name, double salary, std::string uni,double experience, std::string ide):
-	Developer(name, salary, "C++",uni),
+CppDeveloper::CppDeveloper(std::string firstName, std::string lastName, double salary, std::string uni,double experience, std::string ide):
+	Developer(firstName,lastName, salary, "C++",uni),
 	experience(experience),
 	ide(ide)
 {

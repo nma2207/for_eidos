@@ -26,17 +26,17 @@ struct MoreSalary
 Base::Base()
 {
 	employees.reserve(10);
-	employees.push_back(new Assembler("Ruslan", 50000.1, workshop));
-	employees.push_back(new CppDeveloper("Victor", 100000.5, "KFU", 10, "VS2015"));
-	employees.push_back(new Developer("Marat", 25000, "Python 3.6", "KFU"));
-	employees.push_back(new Economist("Sergei", 35124.6, 3));
-	employees.push_back(new ElectronicsEngineer("Bulat", 45555.12, { 0,1 }));
+	employees.push_back(new Assembler("Ruslan","A", 50000.1, workshop));
+	employees.push_back(new CppDeveloper("Victor", "B", 100000.5, "KFU", 10, "VS2015"));
+	employees.push_back(new Developer("Marat", "C", 25000, "Python 3.6", "KFU"));
+	employees.push_back(new Economist("Sergei", "D", 35124.6, 3));
+	employees.push_back(new ElectronicsEngineer("Bulat", "E", 45555.12, { 0,1 }));
 	
-	employees.push_back(new Assembler("Oleg", 50400.1, warehouse));
-	employees.push_back(new CppDeveloper("Dima", 90000.5, "KAI", 7, "DEV-C++"));
-	employees.push_back(new Developer("Ilya", 55000, "Go", "MSU"));
-	employees.push_back(new Economist("Albert", 31124.6, 1));
-	employees.push_back(new ElectronicsEngineer("Rinat", 41255.12, { 0 }));
+	employees.push_back(new Assembler("Oleg", "F", 50400.1, warehouse));
+	employees.push_back(new CppDeveloper("Dima", "G", 90000.5, "KAI", 7, "DEV-C++"));
+	employees.push_back(new Developer("Ilya", "H", 55000, "Go", "MSU"));
+	employees.push_back(new Economist("Albert", "I", 31124.6, 1));
+	employees.push_back(new ElectronicsEngineer("Rinat", "K", 41255.12, { 0 }));
 
 }
 
@@ -59,7 +59,7 @@ void Base::printAllSalary() const
 {
 	for (Employee *emp : employees)
 	{
-		std::cout << emp->getSalary() << " ";
+		std::cout <<emp->getName()<<": "<< emp->getSalary() << std::endl;
 
 	}
 }

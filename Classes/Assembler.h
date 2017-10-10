@@ -11,9 +11,10 @@ class  CLASSES_API Assembler:public Employee
 {
 	Departament departament;
 	static std::map <Departament, std::string> departamentToString;
-	std::string getName() const override;
 public:
-	Assembler(std::string name, double salary, Departament dep);
+	std::string getPosition() const override;
+
+	Assembler(std::string firstName, std::string lastName, double salary, Departament dep);
 	~Assembler();
 	std::string getInfo() const override;
 };

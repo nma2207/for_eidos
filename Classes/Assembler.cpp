@@ -6,8 +6,8 @@ std::map<Departament, std::string> Assembler::departamentToString = {
 	{workshop, "Workshop"},
 	{warehouse, "Warehouse"}
 };
-Assembler::Assembler(std::string name, double salary, Departament dep):
-	Employee(name, assembler, salary),
+Assembler::Assembler(std::string firstName, std::string lastName, double salary, Departament dep):
+	Employee(firstName,lastName, assembler, salary),
 	departament(dep)
 {
 
@@ -25,7 +25,7 @@ std::string Assembler::getInfo() const
 	return info;
 }
 
-std::string Assembler::getName() const
+std::string Assembler::getPosition() const
 {
 	return "Assembler";
 }

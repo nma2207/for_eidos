@@ -6,8 +6,8 @@ std::map<int, std::string> ElectronicsEngineer::ohmRules = {
 	{0, "Ohm's law for subcircuit"},
 	{1, "Ohm's lae for a complete chain"}
 };
-ElectronicsEngineer::ElectronicsEngineer(std::string name, double salary, std::vector<int> ohmRulesNums):
-	Employee(name, electronic, salary),
+ElectronicsEngineer::ElectronicsEngineer(std::string firstName, std::string lastName, double salary, std::vector<int> ohmRulesNums):
+	Employee(firstName, lastName, electronic, salary),
 	ohmRulesNumbers(ohmRulesNums)
 {
 }
@@ -28,7 +28,7 @@ std::string ElectronicsEngineer::getInfo() const
 	return info;
 }
 
-std::string ElectronicsEngineer::getName() const
+std::string ElectronicsEngineer::getPosition() const
 {
 	return "Electronics Engineer";
 }

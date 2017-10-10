@@ -1,5 +1,66 @@
-﻿  Assembler.cpp
-d:\qt_prog\for_eidos_2\classes\employee.h(15): warning C4251: Employee::name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+﻿  stdafx.cpp
+  Employee.cpp
+d:\qt_prog\for_eidos_2\classes\employee.h(15): warning C4251: Employee::firstName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\employee.h(16): warning C4251: Employee::lastName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  ElectronicsEngineer.cpp
+d:\qt_prog\for_eidos_2\classes\employee.h(15): warning C4251: Employee::firstName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\employee.h(16): warning C4251: Employee::lastName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\electronicsengineer.h(8): warning C4251: ElectronicsEngineer::ohmRulesNumbers: class "std::vector<int,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "ElectronicsEngineer"
+          with
+          [
+              _Ty=int
+          ]
+  d:\qt_prog\for_eidos_2\classes\electronicsengineer.h(8): note:  см. объявление "std::vector<int,std::allocator<_Ty>>"
+          with
+          [
+              _Ty=int
+          ]
+d:\qt_prog\for_eidos_2\classes\electronicsengineer.h(9): warning C4251: ElectronicsEngineer::ohmRules: class "std::map<int,std::string,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>" должен иметь dll-интерфейс для использования клиентами class "ElectronicsEngineer"
+          with
+          [
+              _Kty=int,
+              _Ty=std::string
+          ]
+  d:\qt_prog\for_eidos_2\classes\electronicsengineer.h(9): note:  см. объявление "std::map<int,std::string,std::less<int>,std::allocator<std::pair<const _Kty,_Ty>>>"
+          with
+          [
+              _Kty=int,
+              _Ty=std::string
+          ]
+  Economist.cpp
+d:\qt_prog\for_eidos_2\classes\employee.h(15): warning C4251: Employee::firstName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\employee.h(16): warning C4251: Employee::lastName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  Developer.cpp
+d:\qt_prog\for_eidos_2\classes\employee.h(15): warning C4251: Employee::firstName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\employee.h(16): warning C4251: Employee::lastName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\developer.h(7): warning C4251: Developer::devLanguage: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Developer"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\developer.h(8): warning C4251: Developer::uni: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Developer"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  CppDeveloper.cpp
+d:\qt_prog\for_eidos_2\classes\employee.h(15): warning C4251: Employee::firstName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\employee.h(16): warning C4251: Employee::lastName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\developer.h(7): warning C4251: Developer::devLanguage: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Developer"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\developer.h(8): warning C4251: Developer::uni: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Developer"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\cppdeveloper.h(8): warning C4251: CppDeveloper::ide: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "CppDeveloper"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+  Classes.cpp
+  Assembler.cpp
+d:\qt_prog\for_eidos_2\classes\employee.h(15): warning C4251: Employee::firstName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\employee.h(16): warning C4251: Employee::lastName: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
   d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
 d:\qt_prog\for_eidos_2\classes\assembler.h(13): warning C4251: Assembler::departamentToString: class "std::map<Departament,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>" должен иметь dll-интерфейс для использования клиентами class "Assembler"
           with
@@ -13,6 +74,8 @@ d:\qt_prog\for_eidos_2\classes\assembler.h(13): warning C4251: Assembler::depart
               _Kty=Departament,
               _Ty=std::string
           ]
-     
+  Создание кода...
+  dllmain.cpp
+     Создается библиотека D:\qt_prog\for_eidos_2\Debug\Classes.lib и объект D:\qt_prog\for_eidos_2\Debug\Classes.exp
   Classes.vcxproj -> D:\qt_prog\for_eidos_2\Debug\Classes.dll
   Classes.vcxproj -> D:\qt_prog\for_eidos_2\Debug\Classes.pdb (Full PDB)

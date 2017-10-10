@@ -1,16 +1,3 @@
 ﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (for_eidos_2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  main.cpp
-d:\qt_prog\for_eidos_2\classes\employee.h(15): warning C4251: Employee::name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
-  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
-d:\qt_prog\for_eidos_2\base\base.h(12): warning C4251: Base::employees: class "std::vector<Employee *,std::allocator<_Ty>>" должен иметь dll-интерфейс для использования клиентами class "Base"
-          with
-          [
-              _Ty=Employee *
-          ]
-  d:\qt_prog\for_eidos_2\base\base.h(12): note:  см. объявление "std::vector<Employee *,std::allocator<_Ty>>"
-          with
-          [
-              _Ty=Employee *
-          ]
   for_eidos_2.vcxproj -> D:\qt_prog\for_eidos_2\Debug\Test.exe
   for_eidos_2.vcxproj -> D:\qt_prog\for_eidos_2\Debug\Test.pdb (Partial PDB)
