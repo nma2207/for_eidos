@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "ElectronicsEngineer.h"
 
 
@@ -25,4 +26,9 @@ std::string ElectronicsEngineer::getInfo() const
 	}
 	info += "\n";
 	return info;
+}
+
+std::string ElectronicsEngineer::getName() const
+{
+	return "Electronics Engineer";
 }

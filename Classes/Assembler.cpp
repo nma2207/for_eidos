@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Assembler.h"
 
 
@@ -22,4 +23,9 @@ std::string Assembler::getInfo() const
 	std::string info = Employee::getInfo();
 	info += ("Departament: " + departamentToString[departament]+"\n");
 	return info;
+}
+
+std::string Assembler::getName() const
+{
+	return "Assembler";
 }

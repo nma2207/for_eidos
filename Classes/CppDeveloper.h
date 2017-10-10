@@ -1,7 +1,8 @@
 #pragma once
+
 #include "Developer.h"
 #include<string>
-class CppDeveloper: public Developer
+class CLASSES_API CppDeveloper: public Developer
 {
 	double experience;
 	std::string ide;

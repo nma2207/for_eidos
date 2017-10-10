@@ -1,8 +1,9 @@
 #pragma once
 #include "Employee.h"
-class Economist:public Employee
+class CLASSES_API Economist:public Employee
 {
 	int firmCount;
+	std::string getName() const override;
 public:
 	Economist(std::string name, double salary, int firmCount);
 	~Economist();

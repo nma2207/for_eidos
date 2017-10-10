@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Developer.h"
 
 
@@ -20,4 +21,8 @@ std::string Developer::getInfo() const
 	info += ("University: " + uni + "\n");
 
 	return info;
+}
+std::string Developer::getName() const
+{
+	return "Developer";
 }

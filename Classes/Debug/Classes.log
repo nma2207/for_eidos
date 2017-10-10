@@ -1,2 +1,18 @@
-﻿  Employee.cpp
-  Classes.vcxproj -> D:\qt_prog\for_eidos\Debug\Classes.lib
+﻿  Assembler.cpp
+d:\qt_prog\for_eidos_2\classes\employee.h(15): warning C4251: Employee::name: class "std::basic_string<char,std::char_traits<char>,std::allocator<char>>" должен иметь dll-интерфейс для использования клиентами class "Employee"
+  d:\microsoft visual studio 14.0\vc\include\xstring(2633): note:  см. объявление "std::basic_string<char,std::char_traits<char>,std::allocator<char>>"
+d:\qt_prog\for_eidos_2\classes\assembler.h(13): warning C4251: Assembler::departamentToString: class "std::map<Departament,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>" должен иметь dll-интерфейс для использования клиентами class "Assembler"
+          with
+          [
+              _Kty=Departament,
+              _Ty=std::string
+          ]
+  d:\qt_prog\for_eidos_2\classes\assembler.h(13): note:  см. объявление "std::map<Departament,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>"
+          with
+          [
+              _Kty=Departament,
+              _Ty=std::string
+          ]
+     
+  Classes.vcxproj -> D:\qt_prog\for_eidos_2\Debug\Classes.dll
+  Classes.vcxproj -> D:\qt_prog\for_eidos_2\Debug\Classes.pdb (Full PDB)

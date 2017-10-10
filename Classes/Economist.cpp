@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Economist.h"
 
 
@@ -18,4 +19,8 @@ std::string Economist::getInfo() const
 	std::string info = Employee::getInfo();
 	info += ("Firm count: " + std::to_string(firmCount)+"\n");
 	return info;
+}
+std::string Economist::getName() const
+{
+	return "Economist";
 }
